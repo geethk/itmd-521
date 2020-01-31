@@ -101,6 +101,7 @@ After installing an IDE editor of your choice, pick one of the listed or you can
 
 * [atom.io](https://atom.io/ "Atom.io install")
   * Built by GitHub for Git integration
+
 ![atom version](images/atomversion.png "atomversion")
 
 * [Sublime Text](http://www.sublimetext.com/ "Submlime Text installer site")
@@ -113,6 +114,8 @@ After installing an IDE editor of your choice, pick one of the listed or you can
 Download, extract, and execute the Git-It tutorial, located: [https://github.com/jlord/git-it-electron/releases](https://github.com/jlord/git-it-electron/releases "Git-It release tutorial").  The program runs as an executable so there is no installation needed and is cross platform.  The program does require you to have completed and configured Git, which we did in a previous step.  
 
 Post a screenshot of your completion badge (or dots) after you finish the tutorial.
+
+![Gitit Tutorial](images/gitit.png "gitit")
 
 ## Create and Push your Readme.md
 
