@@ -81,9 +81,14 @@ Version 6.x works with Vagrant 2.2.6
 
 Using a package manager, install the latest version of [Packer](https://packer.io "Packer install site").  If you have a version > 1.4.x you will be ok. Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  Place a screenshot of the output of the command: ```packer --version```
 
+![packer version](images/packerversion.png "packerversion")
+
 I have a series of samples that I use from Packer to build images.  Clone this sample repo to your computer: ```git clone https://github.com/jhajek/packer-vagrant-build-scripts```  navigate to the ```packer/vanilla-install``` directory from the command line.  Issue the command: ```packer build ubuntu18043-vanilla.json```
 
 Take a screenshot of the output of the ```build``` directory showing the ```*.box``` file.  In the ```build``` directory, create a directory named **ubuntu-vanilla**.  ~```cd``` into that directory and issue the ```vagrant init``` command:~
+
+![Packer Box File Creation](images/packerboxfile.png "packerboxfile")
+![Packer Box File Creation](images/packerboxfile2.png "packerboxfile2")
 
 ## Install IDE editor
 
@@ -91,8 +96,13 @@ After installing an IDE editor of your choice, pick one of the listed or you can
 
 * [VSCode from Microsoft](https://code.visualstudio.com/ "VSCode install")
   * Cross platform and has direct shell integration
+
+![vscode version](images/vscodeversion.png "vscodeversion")
+
 * [atom.io](https://atom.io/ "Atom.io install")
   * Built by GitHub for Git integration
+![atom version](images/atomversion.png "atomversion")
+
 * [Sublime Text](http://www.sublimetext.com/ "Submlime Text installer site")
   * Built for a MacOS native experience, A sophisticated text editor for code, markup and prose.  Available for all platforms.
 * [Adobe Brackets](http://brackets.io/ "Adobe Brackets Install")
