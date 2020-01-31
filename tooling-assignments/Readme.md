@@ -29,6 +29,8 @@ Brew is the MacOS 3rd party package manager located at: [https://brew.sh/](https
 Using the package manager from the previous step, install the Git Client if you do not already have it installed.  **Note**, this is different from the GitHub Desktop tool, which we will not be using this semester.
 Place a screenshot of the output of the command: ```git --version```
 
+![git version](images/gitversion.png "gitversion")
+
 You will need to configure Git if you already haven't done so.  From a shell run these two commands:
 
 ```bash
@@ -36,6 +38,8 @@ You will need to configure Git if you already haven't done so.  From a shell run
 git config --global user.name "<Your Name>"
 git config --global user.email "<youremail@example.com>"
 ```
+
+![git config](images/gitconfig.png "gitconfig")
 
 ## Install VirtualBox
 
@@ -54,13 +58,20 @@ Try to use 6.0.x until the two applications are compatible.  Here are the direct
 
 Version 6.x works with Vagrant 2.2.6
 
+![Virtual Box version](images/vbversion.png "vbversion")
+
 ## Install Vagrant
 
 Using a package manager, install the latest version of [Vagrant](https://vagrantup.com "Vagrant download site").  If you have a version 2.2.x you will be ok.  Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  Place a screenshot of the output of the command: ```vagrant --version```
 
+![vagrant version](images/vagrantversion.png "vagrantversion")
+
 Complete the Vagrant tutorial located at [https://www.vagrantup.com/intro/getting-started/index.html](https://www.vagrantup.com/intro/getting-started/index.html "Vagrant tutorial"), up to the TEARDOWN step, skipping the SHARE step.  
 
 After completing this tutorial take a screenshot of the output of the command ```vagrant box list```
+
+![vagrant tutorial](images/vagranttutorial.png "vagranttutorial")
+
 
 **Note** - there is some incompatibility with VirtualBox 6.1.x and Vagrant 2.2.6. There is currently a manual workaround at [https://blogs.oracle.com/scoter/getting-vagrant-226-working-with-virtualbox-61-ga](https://blogs.oracle.com/scoter/getting-vagrant-226-working-with-virtualbox-61-ga "VirtualBox manual Workaround").
 
